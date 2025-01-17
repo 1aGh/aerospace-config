@@ -9,10 +9,11 @@ after-login-command = []
 # You can use it to add commands that run after AeroSpace startup.
 # 'after-startup-command' is run after 'after-login-command'
 # Available commands : https://nikitabobko.github.io/AeroSpace/commands
-after-startup-command = []
-
+after-startup-command = [
+  'exec-and-forget borders active_color=0xffFFD700 inactive_color=0xffFFFACD width=6.0'
+]
 # Start AeroSpace at login
-start-at-login = true
+start-at-login = false
 
 # Normalizations. See: https://nikitabobko.github.io/AeroSpace/guide#normalization
 enable-normalization-flatten-containers = true
@@ -174,6 +175,17 @@ automatically-unhide-macos-hidden-apps = false
     # See: https://nikitabobko.github.io/AeroSpace/commands#mode
     alt-s = 'mode service'
     alt-r = 'mode resize'
+
+[workspace-to-monitor-force-assignment]
+    1 = ['49M2C8900L', 2]
+    2 = ['49M2C8900L', 2]
+    3 = ['49M2C8900L', 2]
+    4 = ['49M2C8900L', 1]
+    5 = ['Built-in Retina Display', 1]
+    6 = ['Built-in Retina Display', 1]
+    7 = [3, 'Built-in Retina Display']
+    8 = [3, 'Built-in Retina Display']
+    9 = [3, 'Built-in Retina Display']
 
 [mode.resize.binding]
     # Move left
